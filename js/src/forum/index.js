@@ -11,8 +11,17 @@ app.initializers.add('justoverclock/discussion-info', () => {
             m('div', { className: 'replyCountBox' }, [
                 m('i', { className: 'fas fa-users icontext' }),
                 m('strong', app.translator.trans('justoverclock-discussion-info.forum.participantCount') + ': '),
-                discussion.data.attributes.participantCount,
+                    discussion.data.attributes.participantCount,
             ])
         );
+        items.add(
+          'lastPostDate',
+          m('div', { className: 'lastPostDate' }, [
+            m('i', { className: 'fas fa-clock icontext' }),
+            m('strong', app.translator.trans('justoverclock-discussion-info.forum.participantCount') + ': '),
+            discussion.data.attributes.lastPostedAt.slice(0,10),
+          ])
+        )
     });
 });
+
