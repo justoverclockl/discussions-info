@@ -15,11 +15,11 @@ app.initializers.add('justoverclock/discussion-info', () => {
             ])
         );
         items.add(
-          'lastPostDate',
-          m('div', { className: 'lastPostDate' }, [
+          'lastReadAt',
+          m('div', { className: 'lastReadAt' }, [
             m('i', { className: 'fas fa-clock icontext' }),
-            m('strong', app.translator.trans('justoverclock-discussion-info.forum.participantCount') + ': '),
-            discussion.data.attributes.lastPostedAt.slice(0,10),
+            m('strong', app.translator.trans('justoverclock-discussion-info.forum.lastReadAt') + ': '),
+            discussion.data.attributes.lastReadAt,
           ])
         )
     });

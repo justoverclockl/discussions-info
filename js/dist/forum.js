@@ -128,11 +128,11 @@ flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('justov
     }, [m('i', {
       className: 'fas fa-users icontext'
     }), m('strong', flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('justoverclock-discussion-info.forum.participantCount') + ': '), discussion.data.attributes.participantCount]));
-    items.add('lastPostDate', m('div', {
-      className: 'lastPostDate'
+    items.add('lastReadAt', m('div', {
+      className: 'lastReadAt'
     }, [m('i', {
       className: 'fas fa-clock icontext'
-    }), m('strong', flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('justoverclock-discussion-info.forum.participantCount') + ': '), discussion.data.attributes.lastPostedAt.slice(0, 10)]));
+    }), m('strong', flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('justoverclock-discussion-info.forum.lastReadAt') + ': '), discussion.data.attributes.lastReadAt]));
   });
 });
 

@@ -3,3 +3,4 @@ justoverclock-discussion-info:
     my_cool_key: My Cool Key
   forum:
     participantCount: Participants
+    lastReadAt: Last Read
