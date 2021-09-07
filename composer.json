@@ -1,0 +1,39 @@
+{
+    "name": "justoverclock/discussion-info",
+    "description": "Add more info to DiscussionList items",
+    "keywords": [
+        "discussionList info",
+        "discussion info"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "require-dev": {
+        "flarum/testing": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "Marco Colia",
+            "email": "info@flarum.it",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Justoverclock\\DiscussionInfo\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Add More Info to DiscussionList Items",
+            "category": "",
+            "icon": {
+                "name": "fas fa-info-circle",
+                "backgroundColor": "purple",
+                "color": "white"
+            }
+        }
+    }
+}
