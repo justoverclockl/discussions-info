@@ -123,11 +123,11 @@ flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.initializers.add('justov
   Object(flarum_common_extend__WEBPACK_IMPORTED_MODULE_1__["extend"])(flarum_common_components_DiscussionListItem__WEBPACK_IMPORTED_MODULE_2___default.a.prototype, 'infoItems', function (items) {
     var discussion = this.attrs.discussion;
     console.log(discussion.data.attributes);
-    items.add('replyCount', m("div", {
-      className: "replyCountBox"
-    }, [m("i", {
-      className: "fas fa-users icontext"
-    }), "Partecipanti: " + discussion.data.attributes.participantCount]));
+    items.add('replyCount', m('div', {
+      className: 'replyCountBox'
+    }, [m('i', {
+      className: 'fas fa-users icontext'
+    }), m('strong', flarum_forum_app__WEBPACK_IMPORTED_MODULE_0___default.a.translator.trans('justoverclock-discussion-info.forum.participantCount') + ': '), discussion.data.attributes.participantCount]));
   });
 });
 
