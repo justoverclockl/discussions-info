@@ -18,12 +18,11 @@ composer require justoverclock/discussion-info:"*"
 
 ```sh
 composer update justoverclock/discussion-info:"*"
-php flarum migrate
 php flarum cache:clear
 ```
 
 ## Links
 
 - [Packagist](https://packagist.org/packages/justoverclock/discussion-info)
-- [GitHub](https://github.com/justoverclock/discussion-info)
-- [Discuss](https://discuss.flarum.org/d/PUT_DISCUSS_SLUG_HERE)
+- [GitHub](https://github.com/justoverclockl/discussion-info)
+
