@@ -1,6 +1,6 @@
 # Add More Info to DiscussionList Items
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/justoverclock/discussion-info.svg)](https://packagist.org/packages/justoverclock/discussion-info) [![Total Downloads](https://img.shields.io/packagist/dt/justoverclock/discussion-info.svg)](https://packagist.org/packages/justoverclock/discussion-info)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://poser.pugx.org/justoverclock/discussion-info/v)](https://packagist.org/packages/justoverclock/discussion-info) [![Total Downloads](https://poser.pugx.org/justoverclock/discussion-info/downloads)](https://packagist.org/packages/justoverclock/discussion-info)
 
 A [Flarum](http://flarum.org) extension. Add more info to DiscussionList items
 
