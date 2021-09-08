@@ -20,6 +20,12 @@
             "role": "Developer"
         }
     ],
+    "funding": [
+        {
+            "type": "website",
+            "url": "https://www.paypal.com/donate?hosted_button_id=25WSH565TJCLE"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "Justoverclock\\DiscussionInfo\\": "src/"
