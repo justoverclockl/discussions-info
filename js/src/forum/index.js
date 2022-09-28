@@ -15,7 +15,7 @@ app.initializers.add('justoverclock/discussion-info', () => {
           if (tag1 !== '' && tag2 !== '' && tag3 !== '') {
             return (
               m('div', {className: 'tags-filled'}, [
-                m('i', {className: 'fas fa-clock icontext'}),
+                m('i', {className: 'fas fa-tags icontext'}),
                 m('strong', app.translator.trans('justoverclock-discussion-info.forum.tag') + ': '),
                 discussion.data.attributes.tag1 + ', ' + discussion.data.attributes.tag2 + ', ' + discussion.data.attributes.tag3
               ]))
